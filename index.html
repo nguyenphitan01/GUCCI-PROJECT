@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="./stylePageOne.css">
+    <title>Page 1</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="header__container">
+            <!-- bar icon -->
+            <div class="bar__icon">
+                <div class="bar__item">
+                    <i class="fal fa-bars"></i>
+                </div>
+            </div>
+
+            <!-- logo -->
+            <div class="logo">
+                <img src="./images/pageOneImages/logo-svg.svg" alt="logo">
+            </div>
+
+            <!-- nav-list -->
+            <div class="nav__list">
+                <div class="list__item list__item1">HÀNG MỚI</div>
+                <div class="list__item list__item2">SẢN PHẨM</div>
+                <div class="list__item list__item3">ÁO THUN "NIỀM VUI THIẾT YẾU"</div>
+                <div class="list__item list__item4">SALE LẠC QUAN</div>
+                <div class="list__item list__item5">SHOWROOM</div>
+            </div>
+
+            <!-- input -->
+            <div class="input__search">
+                <div class="input__content">
+                    <input class="input__box" type="text" placeholder="Tìm kiếm">
+                    <i class="fal fa-search"></i>
+                </div>
+            </div>
+
+            <!-- cart -->
+            <div class="cart">
+                <i class="fal fa-user-alt"></i>
+                <i class="fal fa-shopping-bag"></i>
+            </div>
+
+        </div>
+
+        <!-- Nav-overlay -->
+        <div class="nav__overlay">
+            <div class="nav__overlay__content">
+                <!-- nav top -->
+                <div class="nav__content__top">
+                    <!-- menu -->
+                    <div class="nav__overlay__menu">
+                        <p>Menu</p>
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <!-- list -->
+                    <div class="nav__overlay__list">
+                        <div class="nav__item item1">Hàng Mới</div>
+                        <div class="nav__item item2">
+                            Sản Phẩm
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="nav__item item3">Áo Thun "Niềm Vui Thiết Yếu"</div>
+                        <div class="nav__item item4">Sale Lạc Quan</div>
+                        <div class="nav__item item5">Showroom</div>
+                    </div>
+                </div>
+
+                <!-- nav-footer -->
+                <div class="nav__overlay__footer">
+                    <div class="top">
+                        <div class="top__left">
+                            <i class="fal fa-user-alt"></i>
+                            TÀI KHOẢN CỦA TÔI
+                        </div>
+                        <div class="top__right">
+                            MEMBERSHIP
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+                        <p>
+                            Miễn phí giao hàng với hoá đơn 300.000 đồng.
+                            Thời gian đổi trả sản phẩm lên đến 30 ngày.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+
+        <!-- input-overlay -->
+        <div class="input__overlay">
+            <div class="input__overlay__container">
+                <input class="overlay__box__item" type="text" placeholder="Tìm kiếm...">
+                <i class="fal fa-times"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- list product overlay -->
+    <div class="list__product">
+        <div class="product__container">
+            <!-- list content -->
+            <div class="product__content">
+                <div class="pr__content__item shoes">
+                    <div class="product__item">GIÀY</div>
+                    <div class="product__item">Giày Snackers</div>
+                    <div class="product__item">Giày cao gót</div>
+                </div>
+
+                <div class="pr__content__item bags">
+                    <div class="product__item">TÚI</div>
+                    <div class="product__item">Túi cỡ nhỏ</div>
+                    <div class="product__item">Túi cỡ trung</div>
+                </div>
+
+                <div class="pr__content__item accessory">
+                    <div class="product__item">PHỤ KIỆN</div>
+                    <div class="product__item">Mắt kính</div>
+                    <div class="product__item">Trang sức</div>
+                </div>
+
+                <div class="pr__content__item t-shirt">
+                    <div class="product__item">ÁO THUN</div>
+                    <div class="product__item">Top giàu sang</div>
+                    <div class="product__item">Bánh mì Sài Gòn</div>
+                </div>
+
+                <div class="pr__content__item collection">
+                    <div class="product__item">BỘ SƯU TẬP</div>
+                    <div class="product__item">Juno Snackers Thả Thính Mùa Hè</div>
+                    <div class="product__item">Summer Taste</div>
+                </div>
+            </div>
+
+            <!-- product footer -->
+            <div class="product__footer">
+                <p class="product__freeShip">
+                    Miễn phí giao hàng toàn quốc từ hoá đơn 300.000 đồng | 
+                    Thời gian đổi trả lên đến 30 ngày.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="home__slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./images/pageOneImages/bannerok_825bfda50c95486f905292da2335e0de.jpg" alt="First slide" >
+                <img class="d-block w-100 mobile__img__slider" src="./images/pageOneImages/juno-hnoss-kv-tshirt-_doc__378c899193af45fcb29dffbc51816267.jpg" alt="Second slide" >
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./images/pageOneImages/kv-sale-ngan-lac-quan-1920x870_8f4fa2cd38584411bfcee2b43322e8ad.jpg" alt="Second slide" >
+                <img class="d-block w-100 mobile__img__slider" src="./images/pageOneImages/kv-sale-ngan-lac-quan-700x1010-2_1_920b979f615144d5ae9151aaf5e85ee6.jpg" alt="Second slide" >
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="control__left" aria-hidden="true">
+                <i class="fal fa-chevron-left"></i>
+              </span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="control__right" aria-hidden="true">
+                <i class="fal fa-chevron-right"></i>
+              </span>
+            </a>
+          </div>
+    </div>
+
+    <!-- Content container -->
+    <div class="content__container">
+        <!-- section 1 -->
+        <div class="section1">
+            
+            <!-- title -->
+            <div class="s1__title">
+                <h5>MỚI NHẤT</h5>
+                <p>
+                    Lần đầu tiên Juno & Hnoss hợp tác, mang đến những Bộ sư tập 
+                    áo thun "Niềm vui thiết yếu", lan tỏa năng lượng tích cực.
+                </p>
+            </div>
+
+            <!-- list img -->
+            <div class="card__container">
+
+                <div class="card-deck">
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/h.1_12cc31f766904c37b3bce1dd3f4d8a7c.jpg" alt="">
+                            <img id="img__hover" class="card-img-top card-img-hover" src="./images/pageOneImages/xanh_ath010_3_9ffe4e883a14445bb3771ed0c94a82c1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Áo Thun "Top Giàu Sang"</p>
+                            <p class="card-text">
+                                <strong>249.000đ</strong>
+                            </p>
+                            <div class="choose__color">
+                                <div class="color__item color__item1"></div>
+                                <div class="color__item color__item2"></div>
+                                <div class="color__item color__item3"></div>
+                            </div>
+                            <!-- <div class="choose__size">S</div> -->
+                            <div class="buy__now">
+                                <span>MUA NGAY</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/h.2_6bf59165be1543eaa92f36a70d5f5996.jpg" alt="">
+                            <img id="img__hover" class="card-img-top card-img-hover" src="./images/pageOneImages/den_ath011_3_e69118489f964858a4cf197d98b37f0b_grande.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Áo Thun "Hành Khoẻ Đẹp"</p>
+                            <p class="card-text">
+                                <strong>249.000đ</strong>
+                            </p>
+                            <div class="choose__color">
+                                <div class="color__item color__item1"></div>
+                                <div class="color__item color__item2"></div>
+                                <div class="color__item color__item3"></div>
+                            </div>
+                            <!-- <div class="choose__size">S</div> -->
+                            <div class="buy__now">
+                                <span>MUA NGAY</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/h.3_a78a6d51314547e0bff03aef0ad735b7.jpg" alt="">
+                            <img id="img__hover" class="card-img-top card-img-hover" src="./images/pageOneImages/xanh_ath013_3_15ee0f9765d240c5aaab437cd3bc18b7_grande.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Áo Thun "Bánh Mỳ Sài Gòn"</p>
+                            <p class="card-text">
+                                <strong>249.000đ</strong>
+                            </p>
+                            <div class="choose__color">
+                                <div class="color__item color__item1"></div>
+                                <div class="color__item color__item2"></div>
+                                <div class="color__item color__item3"></div>
+                            </div>
+                            <!-- <div class="choose__size">S</div> -->
+                            <div class="buy__now">
+                                <span>MUA NGAY</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/h.4_42a53da86fd544a0902682ff9a93468e.jpg" alt="">
+                            <img id="img__hover" class="card-img-top card-img-hover" src="./images/pageOneImages/hong_ath014_3_62591e3d82e94edc8b2f1e88c16648c2_grande.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Áo Thun "Hành Trứng Ấm Êm"</p>
+                            <p class="card-text">
+                                <strong>249.000đ</strong>
+                            </p>
+                            <div class="choose__color">
+                                <div class="color__item color__item1"></div>
+                                <div class="color__item color__item2"></div>
+                                <div class="color__item color__item3"></div>
+                            </div>
+                            <!-- <div class="choose__size">S</div> -->
+                            <div class="buy__now">
+                                <span>MUA NGAY</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+
+            <!-- extend -->
+            <div class="extend">
+                <span>XEM TẤT CẢ</span>
+            </div>
+        </div>
+
+        <!-- section 2 -->
+        <div class="section2">
+            
+            <!-- title -->
+            <div class="s2__title">
+                <h5>NHÓM SẢN PHẨM ĐƯỢC QUAN TÂM NHẤT</h5>
+            </div>
+
+            <!-- list img -->
+            <div class="card__container">
+
+                <div class="card-deck">
+                    <div class="card card__item">
+                        <img class="card-img-top" src="./images/pageOneImages/hinh-sp-1_3aa1b756ba1e445e9c545900eb4f8d51.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-title">
+                                <span>GIÀY CAO GÓT</span>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="card card__item">
+                        <img class="card-img-top" src="./images/pageOneImages/hinh-sp-2_3b3d867574fb4fff90b405be9d80d7e1.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-title">
+                                <span>TÚI XÁCH NHỎ</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card card__item">
+                        <img class="card-img-top" src="./images/pageOneImages/hinh-sp-3_2b063d0ad4664b5a812da41a8c13207b.jpg" alt="">
+                        <div class="card-body">
+                            <p class="card-title">
+                                <span>SNEAKERS</span>
+                            </p>
+                        </div>
+                    </div>
+
+                 </div>
+            </div>
+
+        </div>
+
+        <!-- section 3 -->
+        <div class="section3">
+            <div class="s3__title">
+                <h5>BỘ SƯU TẬP</h5>
+            </div>
+
+            <div id="myCarousel" class="carousel slide border" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                 </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="video__card">
+                            <iframe class="cart__video__item" src="https://www.youtube.com/embed/kWSux5Nw_LI?autoplay=1&mute=1&loop=1&playlist=kWSux5Nw_LI&controls=0&showinfo=0" allow="autoplay;" frameborder="0"></iframe>
+                        </div>
+                        <div class="carousel-caption">
+                            <h5>IMPERFECT</h5>
+                            <small>
+                                Những chiếc túi kem thời trang, 
+                                đầy cảm hứng từ nhiều sắc màu ngọt ngào và xu hướng thời trang hè 2021.
+                            </small>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video__card">
+                            <iframe class="cart__video__item" src="https://www.youtube.com/embed/M5sXSeqD9xU?autoplay=1&mute=1&loop=1&playlist=M5sXSeqD9xU&controls=1&showinfo=0" allow="autoplay;"></iframe>
+                        </div>
+                        <div class="carousel-caption">
+                            <h5>SUMMER TASTE</h5>
+                            <small>
+                                SUMMER TASTE COLLECTION là sự kết hợp mới nhất của JUNO & Miu Lê để mang đến thông điệp: Hãy gạt đi những bận rộn, tận hưởng những trải nghiệm & hương vị mùa hè khi đang độ rực rỡ nhất.
+                            </small>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video__card">
+                            <iframe class="cart__video__item" src="https://www.youtube.com/embed/9-4i8ROafNk?autoplay=1&mute=1&loop=1&playlist=9-4i8ROafNk&controls=0&showinfo=0" allow="autoplay;"></iframe>
+                        </div>
+                        <div class="carousel-caption">
+                                <h5>DISNEY x JUNO</h5>
+                                <small>
+                                    5 nút thắt độc đáo, bắt điểm nhìn trên đôi JUNO Sneakers như một ngôn ngữ thả thính mới: giúp nàng khoe khéo status tình cảm, như nút thắt 
+                                    #SelfLove dành cho cô nàng thích cuộc sống độc thân tự do!
+                                </small>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="video__card">
+                            <iframe class="cart__video__item" src="https://www.youtube.com/embed/S7mWot0hgpU?autoplay=1&mute=1&loop=1&playlist=S7mWot0hgpU&controls=0&showinfo=0" allow="autoplay;"></iframe>
+                        </div>
+                        <div class="carousel-caption">
+                                <h5>THE FOLD</h5>
+                                <small>
+                                    Lấy ý tưởng từ niềm vui, 
+                                    để nàng tràn đầy cảm hứng và thỏa sức làm điều mình muốn.
+                                </small>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <i class="fal fa-chevron-left" aria-hidden="true"></i>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <i class="fal fa-chevron-right" aria-hidden="true"></i>
+                </a>
+             </div>
+
+        </div>
+
+        <!-- section 4 -->
+        <div class="section4">
+
+            <div class="s4__title">
+                <h5>Gợi ý dành riêng cho bạn</h5>
+            </div>
+
+            <div class="card__container">
+                <div class="card-deck">
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/xanh-nhat_txt231_1_5103d5de98ac49fbb24bbb5f5676817f.jpg" alt="">
+                            <img id="img__hover" class="card-img-top card-img-hover" src="./images/pageOneImages/xanh_bl117_1_850d7c8d2e7746329e57d7658e903648.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="choose__color">
+                                <div class="color__item color__item1"></div>
+                                <div class="color__item color__item2"></div>
+                                <div class="color__item color__item3"></div>
+                            </div>
+                            <p class="card-title">Túi Xách Trung Gắn Khoá Trang Trí</p>
+                            <p class="card-text">
+                                <strong>500.000đ</strong>
+                                <del>750.000đ</del>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/trang_bl063_1_5192ac91478942ceb44fbeab31fad069.jpg" alt="">
+                            <img id="img__hover" class="card-img-top card-img-hover" src="./images/pageOneImages/hong_txl060_1_cb210a907e074a59896741e86830f85d.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="choose__color">
+                                <div class="color__item color__item1"></div>
+                                <div class="color__item color__item2"></div>
+                                <div class="color__item color__item3"></div>
+                            </div>
+                            <p class="card-title">Balo Top Handle</p>
+                            <p class="card-text">
+                                <strong>600.000đ</strong>
+                                <del>795.000đ</del>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/hong_txn395_1_04a88d59ebe44f1da1a20a94bdb4471a.jpg" alt="">
+                            <img id="img__hover" class="card-img-top card-img-hover" src="./images/pageOneImages/kem_txn387_1_d839a875885b40e4b4a9cbeda0dd0790.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="choose__color">
+                                <div class="color__item color__item1"></div>
+                                <div class="color__item color__item2"></div>
+                                <div class="color__item color__item3"></div>
+                            </div>
+                            <p class="card-title">Tú Xách Nhỏ Day Đan</p>
+                            <p class="card-text">
+                                <strong>400.000đ</strong>
+                                <del>695.000đ</del>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/den_txt247_1_ecddc091fb2b4540800ad341b514e710.jpg" alt="">
+                            <img id="img__hover" class="card-img-top card-img-hover" src="./images/pageOneImages/den_txn405_1_981d3a1963524437a0d9d4846eaaf04e.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="choose__color">
+                                <div class="color__item color__item1"></div>
+                                <div class="color__item color__item2"></div>
+                                <div class="color__item color__item3"></div>
+                            </div>
+                            <p class="card-title">Túi Đeo Vai Gắn Charm Túi Mini</p>
+                            <p class="card-text">
+                                <strong>600.000đ</strong>
+                                <del>895.000đ</del>
+                            </p>
+                        </div>
+                    </div>
+
+                 </div>
+            </div>
+
+        </div>
+
+        <!-- section 5 -->
+        <div class="section5">
+
+            <div class="s5__title">
+                <div class="title__line__left"></div>
+                <div class="title__text">
+                    <h5>INSTAGRAM</h5>
+                    <span>@juno.vn</span>
+                </div>
+                <div class="title__line__right"></div>
+            </div>
+
+            <div class="card__container">
+                <div class="card-deck">
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/instagram1.jpg" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/instagram2.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/instagram3.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card card__item">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./images/pageOneImages/instagram4.jpg" alt="">
+                        </div>
+                    </div>
+
+                 </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer__container">
+
+            <div class="hotline__extend">
+                <span class="hotline__extend__click">
+                    HOTLINE
+                    <i class="fas fa-sort-down"></i>
+                </span>
+            </div>
+            <div class="hotline__overlay">
+                <p>GỌI MUA HÀNG ONLINE (08:00 - 21:00)</p>
+                <h5>1800 1162</h5>
+                <br>
+                <p>GÓP Ý & KHIẾU NẠI (08:30 - 20:30)</p>
+                <h5>1800 1160</h5>
+                <br>
+                <span>© 2019 JUNO. Công ty CP - SX - TM - DV JUNO.</span>
+                <br><br>
+                <i class="fas fa-sort-up"></i>
+            </div>
+            <div class="hotline">
+                <div class="shopping__online">
+                    <p>GỌI MUA HÀNG ONLINE (08:00 - 21:00)</p>
+                    <h5>1800 1162</h5>
+                    <span>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</span>
+                </div>
+                <br>
+                <div class="complain">
+                    <p>GÓP Ý & KHIẾU NẠI (08:30 - 20:30)</p>
+                    <h5>1800 1160</h5>
+                    <span>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</span>
+                </div>
+            </div>
+
+            <div class="showroom__system">
+                <p>HỆ THỐNG SHOWROOM</p>
+                <p>JUNO Store</p>
+                <span class="address__showroom">Xem địa chỉ hệ thống 60 showroom</span>
+            </div>
+
+            <div class="fanpage">
+                <p>FANPAGE CỦA CHÚNG TÔI</p>
+                <div class="img__fanpage"></div>
+                <div class="icon__fanpage">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-youtube-square"></i>
+                    <i class="fab fa-tiktok"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="company__name">
+            <span>© 2019 JUNO. Công ty CP - SX - TM - DV JUNO.</span>
+        </div>
+    </div>
+
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./appPageOne.js"></script>
+</body>
+</html>
+
+
+
+
+
+         
